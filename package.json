@@ -1,0 +1,39 @@
+{
+  "name": "@aestheticbookshelf/minapp",
+  "version": "1.0.1",
+  "description": "Minimal application.",
+  "main": "lib/minapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minimal",
+    "application"
+  ],
+  "author": "aestheticbookshelf",
+  "license": "MIT",
+  "homepage": "https://github.com/aestheticbookshelf/minapp",
+  "bugs": {
+    "url": "https://github.com/aestheticbookshelf/minapp/issues",
+    "email": "aestheticbookshelf@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aestheticbookshelf/minapp.git"
+  },
+  "dependencies": {
+    "@aestheticbookshelf/confutils": "^1.0.6",
+    "@aestheticbookshelf/oauth": "^1.0.6",
+    "@aestheticbookshelf/smartdom": "^1.0.20",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.5.0",
+    "gulp": "^4.0.2",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

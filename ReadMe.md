@@ -1,0 +1,3 @@
+# minapp
+
+Minimal application.
